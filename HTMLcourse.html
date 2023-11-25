@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="icon" href="HTMLpic/HTMLicon.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>HTML Course For Beginners</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('#submit1').onclick = function() {
+                    document.querySelector('#submit1').style.backgroundColor = 'green';
+                    document.querySelector('#Enrolled').innerHTML = 'Enrolled';
+                }});
+        </script>
+        <meta charset="UTF-8">
+        <meta name="description" content="HTML Course For Beginners">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="ABO_GHANIM1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="headerHtml">
+            <img src="HTMLpic/html.png" alt="HTML logo" width="150" class="img-thumbnail">
+            <h2>To Design A Web Page Take Course Of</h2>
+            <h1>HTML Language For Beginners</h1>
+            <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
+                <a class="navbar-brand" href="#">HTML For Beginners</a>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">What Is HTML</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">What Is The Benefit Of HTML</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading3">Try Before Enrolling</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading4">Enrolling</a>
+                  </li>
+                </ul>
+              </nav>
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+                <h4 id="scrollspyHeading1" style="color: #000;">What Is HTML</h4>
+                <p class="text-blue-Cursive">
+                    The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+                </p>
+                <p class="text-blue-Cursive">
+                    Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.
+                </p>
+                <img src="HTMLpic/HTMLpic.jpg" alt="HTML picture" width="300" class="img-thumbnail">
+                <img src="HTMLpic/HTMLpic.png" alt="HTML picture" width="300" class="img-thumbnail">
+                <br>
+                <hr style="color: #000;">
+                <h4 id="scrollspyHeading2" style="color: #000;">What Is The Benefit Of HTML</h4>
+                <ol class="text-blue-Cursive">
+                    <li>HTML allows you to browse the internet with ease.</li>
+                    <p class="text-blue-Cursive">
+                        All you need to do is click on a link to travel on the internet, or enter the URL in the address bar.
+
+                        Hypertext is what makes travel between the internet possible, especially if you haven’t memorized all the URLs on the whole internet. It’s essential to guide users around your website and act as a door to know that different rooms exist and can travel between them.
+
+                        Without hypertext, how can you tell if there are other web pages to visit at all?
+                    </p>
+                    <li>HTML allows you to create web documents.</li>
+                    <p class="text-blue-Cursive">
+                        A web document is a web page. All web pages are possible because you can create the content you want the user to see and then wrap them up in snug code that tells the computer how to format the whole thing. That lets your browser know what text the heading is, what text the body is, and what text the metadata is. It’s labeled, so the computer understands what to do with the content that you give it.
+
+
+                      </p>
+                    <li> HTML comes with cutting-edge features.</li>
+                    <p class="text-blue-Cursive">
+                        HTML supports Polyfill, which is a piece of code that lets you use different technology natively. That means that you can mimic a future API and give fallback functionality to older browsers. You can use polyfill libraries according to your needs and do things no one has ever done before.
+                    </p>
+                    <li>HTML supports data entry.</li>
+                    <p class="text-blue-Cursive">
+                        You have the standard APIs needed to support any data entry work. All developers need to do is add tags that indicate the required fields, such as text and data formats. You can even support on-screen keyboards and validation, which allows the user to have a smooth and comfortable experience.
+                    </p>
+                </ol>
+                <img src="HTMLpic/HTMLpic4.jpg" alt="HTML picture" width="500" class="img-thumbnail">
+                <br>
+                <hr style="color: #000;">
+                <h4 id="scrollspyHeading3" style="color: #000;">Try Before Enrolling</h4>
+                <p class="text-blue-Cursive">
+                    Here is some teaching videos of HTML courses, so you know about the course and know what will encounter in the course:
+                </p>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/HD13eq_Pmp8"></iframe>
+                <br>
+                <hr style="color: #000;">
+                <h4 id="scrollspyHeading4" style="color: #000;">Enrolling</h4>
+                <p class="text-blue-Cursive">
+                    To enroll with us you need to put your name and your phone number seperated by space then click Enroll:
+                </p>
+                <input autocomplete="off" autofocus placeholder="Name Phone" type="text">
+                <input type="submit" value="Enroll" id="submit1">
+                <h1 id="Enrolled" style="color: green;"></h1>
+                <br>
+                <hr style="color: #000;">
+              </div>
+            <br>
+            <h2>HTML Course For Beginners</h2>
+            <h1>ABDULLAH ALGHANIM</h1>
+            <button>
+            <a href="https://twitter.com/ABO_GHANIM1">
+                <img src="icons/x.png" width="50">
+            </a>
+            </button>
+            <button>
+            <a href="https://www.instagram.com/abo_ghanim1/?next=%2Fabo_.ghanm%2F">
+                <img src="icons/instgram.png" width="50">
+            </a>
+            </button>
+            <button>
+            <a href="https://t.snapchat.com/vCqx7Efj">
+                <img src="icons/snapchat.png" width="50">
+            </a>
+            </button>
+            <button>
+            <a href="https://www.tiktok.com/@abo_ghanim1">
+                <img src="icons/tiktok.png" width="50">
+            </a>
+            </button>
+            <h5>&#169 2023 All Rights Reserved</h5>
+        </div>
+    </body>
+</html>
